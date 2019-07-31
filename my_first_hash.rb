@@ -11,16 +11,16 @@ def shipping_manifest
   # manifest guide:
   # {inventory item => quantity}
   the_manifest = {
-    "whale bone corsets" => 5
-    "porcelain vases" => 2
+    "whale bone corsets" => 5,
+    "porcelain vases" => 2,
     "oil paintings" => 3
   }
 
 def retrieval
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
   the_manifest = {
-    "whale bone corsets" => 5
-    "porcelain vases" => 2
+    "whale bone corsets" => 5,
+    "porcelain vases" => 2,
     "oil paintings" => 3
   }
 
